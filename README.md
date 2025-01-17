@@ -1,7 +1,7 @@
-###Child Mind Institute - Problematic Internet Use
+### Child Mind Institute - Problematic Internet Use
 This repository contains the solution for predicting the Severity Impairment Index (sii) of participants based on the Healthy Brain Network (HBN) dataset. The project leverages various machine learning techniques to analyze physical activity data, fitness assessments, and internet usage behavior to predict problematic internet use among children and adolescents.
 
-###Table of Contents
+### Table of Contents
 Dataset Description
 
 Data Files
@@ -32,12 +32,12 @@ Contributing
 
 License
 
-###Dataset Description
+### Dataset Description
 The Healthy Brain Network (HBN) dataset is a clinical sample of approximately five-thousand 5-22 year-olds who have undergone both clinical and research screenings. The objective of the HBN study is to find biological markers that will improve the diagnosis and treatment of mental health and learning disorders from an objective biological perspective.
 
 The goal of this project is to predict a participant's Severity Impairment Index (sii), a measure of problematic internet use, using physical activity data and internet usage behavior data.
 
-###Data Files
+### Data Files
 The competition data is compiled into two sources:
 
 Parquet Files: Contain accelerometer (actigraphy) series data.
@@ -90,7 +90,7 @@ quarter: Quarter of the year.
 
 relative_date_PCIAT: Days since the PCIAT test was administered.
 
-###Installation
+### Installation
 Clone the repository:
 
 bash
@@ -107,8 +107,8 @@ Run the script:
 
 bash
 python main.py
-###Approaches and Techniques
-##First Approach
+### Approaches and Techniques
+## First Approach
 Steps:
 
 Data Loading and Preprocessing:
@@ -129,7 +129,7 @@ Used XGBClassifier with hyperparameter tuning via GridSearchCV.
 
 Evaluated model performance using accuracy and Quadratic Weighted Kappa (QWK).
 
-##Second Approach
+## Second Approach
 Steps:
 
 Data Visualization:
@@ -142,7 +142,7 @@ Used XGBRegressor with hyperparameter tuning via GridSearchCV and K-Fold Cross-V
 
 Evaluated model performance using MSE, RMSE, and R² score.
 
-##Third Approach
+## Third Approach
 Steps:
 
 Data Preprocessing:
@@ -159,7 +159,7 @@ Used RandomForestClassifier with hyperparameter tuning via GridSearchCV.
 
 Evaluated model performance using accuracy and QWK score.
 
-##Fourth Approach
+## Fourth Approach
 Steps:
 
 Data Preprocessing:
@@ -176,7 +176,7 @@ Used XGBClassifier with hyperparameter tuning via GridSearchCV.
 
 Evaluated model performance using accuracy and QWK score.
 
-###Results
+### Results
 First Approach:
 
 Accuracy: 0.6077
@@ -203,5 +203,5 @@ Accuracy: 0.5912
 
 QWK: 0.3664
 
-###Reflection
+### Reflection
 This competition was a significant learning experience, especially as the first team competition. Multiple approaches were tried, each addressing various aspects of data preprocessing, handling class imbalance, and model evaluation. Although the team didn't rank very high, the knowledge and skills gained were invaluable for future projects.
