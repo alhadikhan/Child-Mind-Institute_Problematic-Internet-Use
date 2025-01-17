@@ -1,3 +1,4 @@
+Link: https://www.kaggle.com/code/mdalhadikhan/child-mind-institute-problematic-internet-use
 ### Child Mind Institute - Problematic Internet Use
 This repository contains the solution for predicting the Severity Impairment Index (sii) of participants based on the Healthy Brain Network (HBN) dataset. The project leverages various machine learning techniques to analyze physical activity data, fitness assessments, and internet usage behavior to predict problematic internet use among children and adolescents.
 
